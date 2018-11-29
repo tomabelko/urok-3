@@ -1,0 +1,93 @@
+@import "all.min.css";
+header:after , section:after , footter:after{
+	content: '';
+	clear: both;
+	display: block;
+	}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+header .container{
+	padding: 0;
+}
+.logo{
+	font-size: 36px;
+	text-transform: uppercase;
+	display: inline-block;
+	float: left;
+	margin-right: 150px
+}
+.logo i{
+	margin-right: 15px;
+}
+.top-menu{
+		float: left;
+		list-style: none;
+		margin: 0;
+}
+.top-menu li{
+		float: left;
+		margin-right: 15px;
+		font-size: 22px;
+
+}
+.top-menu li a{
+		line-height: 42px;
+}
+.h1{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 32px;
+	margin-bottom: 50px;
+}
+.news-block__single{
+		width: 18.4%;
+		margin-left: 2%;
+		float: left;
+		
+}
+.news-block__single:first-child{
+		margin-left: 0%;
+}
+.news-block__single img{
+	width: 100%;
+	height: auto;
+}
+.left-column{
+		width: 60%;
+		float: left;
+}
+.right-column{
+	width: 30%;
+	float: right;
+}
+input[type="text"]{
+	width: calc(100% - 20px);
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	border: solid 2px #f00; 
+}
+::placeholder{
+	color: red;
+}
+textarea{
+	width: calc(100% - 20px);
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	border: solid 2px #f00;
+	resize: unset;
+}
+
+input[type="submit"]{
+		color: #fff;
+		padding: 5px 10px;
+		border: solid 2px #f00;
+		background: #f00;
+		cursor: pointer;
+}
+input[type="submit"]:hover{
+		background: #fff;
+		color: #f00;
+}
